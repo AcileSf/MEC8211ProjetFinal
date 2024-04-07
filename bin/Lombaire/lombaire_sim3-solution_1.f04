@@ -1,0 +1,548 @@
+1
+ MACHINE                        MODEL                 OPERATING SYSTEM       Simcenter Nastran  BUILD DATE         RUN DATE
+ Intel64 Family 6 Mod           Intel(R) Core(TM) i5  Windows 10             VERSION 1926.0091  MAY 12, 2020       AUG  9, 2023
+
+ 
+                            ===    S i m c e n t e r  N a s t r a n   E X E C U T I O N   S U M M A R Y    ===
+
+ Day_Time  Elapsed     I/O_Mb      Del_Mb     CPU_Sec    Del_CPU    Subroutine
+ 
+ 10:47:45     0:00        0.0         0.0         0.0        0.0    SEMTRN   BGN
+ 10:47:45     0:00        0.0         0.0         0.0        0.0    SEMTRN   END
+ 10:47:45     0:00        0.0         0.0         0.0        0.0    DBINIT   BGN
+      ** CURRENT PROJECT ID = ' "BLANK" '  ** CURRENT VERSION ID =          1
+
+     S U M M A R Y   O F   F I L E   A S S I G N M E N T   F O R   T H E   P R I M A R Y   D A T A B A S E     ( DBSNO   1, SCN20.2 )
+
+    ASSIGNED PHYSICAL FILE NAME (/ORIGINAL)      LOGICAL NAME     DBSET        STATUS    BUFFSIZE     CLUSTER SIZE      TIME STAMP
+    ---------------------------------------      ------------     -----        ------    --------     ------------     ------------
+    ...ire_sim3-solution_1.T108016_43.MASTER     MASTER           MASTER       NEW          32769           1          230809104745
+    ...aire_sim3-solution_1.T108016_43.DBALL     DBALL            DBALL        NEW          32769           1          230809104746
+    ...ire_sim3-solution_1.T108016_43.OBJSCR     OBJSCR           OBJSCR       NEW           8193           1          230809104747
+               **** MEM FILE ****                * N/A *          SCRATCH 
+    ...re_sim3-solution_1.T108016_43.SCRATCH     SCRATCH          SCRATCH      NEW          32769           1          230809104748
+    ...ire_sim3-solution_1.T108016_43.SCR300     SCR300           SCRATCH      NEW          32769           1          230809104749
+ 10:47:45     0:00        7.0         7.0         0.0        0.0    DBINIT   END
+ 10:47:45     0:00        7.0         0.0         0.0        0.0    XCSA     BGN
+
+     S U M M A R Y   O F   F I L E   A S S I G N M E N T   F O R   T H E   D E L I V E R Y   D A T A B A S E   ( DBSNO   2, SCN20.2 )
+
+    ASSIGNED PHYSICAL FILE NAME (/ORIGINAL)      LOGICAL NAME     DBSET        STATUS    BUFFSIZE     CLUSTER SIZE      TIME STAMP
+    ---------------------------------------      ------------     -----        ------    --------     ------------     ------------
+    d:/simcenter 3d/.../em64tntl/SSS.MASTERA     MASTERA          MASTER       OLD           8193           1          200512142319
+   /./sss.MASTERA                           
+    d:/simcenter 3d/.../em64tntl/SSS.MSCOBJ      MSCOBJ           MSCOBJ       OLD           8193           1          200512142324
+   /./sss.MSCOBJ                            
+    d:/simcenter 3d/.../em64tntl/SSS.MSCSOU      MSCSOU           MSCSOU       OLD           8193           1          200512142325
+   /./sss.MSCSOU                            
+ 10:47:45     0:00      494.0       487.0         0.1        0.1    XCSA     END
+ 10:47:45     0:00      494.0         0.0         0.1        0.0    CGPI     BGN
+ 10:47:45     0:00      494.0         0.0         0.1        0.0    CGPI     END
+ 10:47:45     0:00      494.0         0.0         0.1        0.0    LINKER   BGN
+ 10:47:45     0:00     1003.0       509.0         0.2        0.1    LINKER   END
+
+                    S U M M A R Y   O F   P H Y S I C A L   F I L E   I N F O R M A T I O N
+
+    ASSIGNED PHYSICAL FILE NAME                                   RECL (BYTES)  MODE  FLAGS  WSIZE  (WNUM)
+    ------------------------------------------------------------  ------------  ----  -----  -------------
+    c:/.../temp/lombaire_sim3-solution_1.T108016_43.SCRATCH             262144   R/W           N/A        
+    c:/users/.../temp/lombaire_sim3-solution_1.T108016_43.OBJSCR         65536   R/W           N/A        
+    c:/users/.../temp/lombaire_sim3-solution_1.T108016_43.MASTER        262144   R/W           N/A        
+    c:/users/.../temp/lombaire_sim3-solution_1.T108016_43.DBALL         262144   R/W           N/A        
+    c:/users/.../temp/lombaire_sim3-solution_1.T108016_43.SCR300        262144   R/W           N/A        
+    d:/simcenter 3d/nxnastran/scnas/em64tntl/SSS.MASTERA                 65536   R/O           N/A        
+    d:/simcenter 3d/nxnastran/scnas/em64tntl/SSS.MSCOBJ                  65536   R/O           N/A        
+
+    FLAG VALUES ARE --
+      B   BUFFERED I/O USED TO PROCESS FILE
+      M   FILE MAPPING USED TO PROCESS FILE
+      R   FILE BEING ACCESSED IN 'RAW' MODE
+ 
+    ASSIGNED PHYSICAL FILE NAME                                   LOGICAL   UNIT  STATUS   ACCESS   RECL  FORM    FLAGS
+    ------------------------------------------------------------  --------  ----  -------  ------  -----  ------  -----
+    ./lombaire_sim3-solution_1.f04                                LOGFL        4  OLD      SEQ      N/A   FMTD         
+    ./lombaire_sim3-solution_1.f06                                PRINT        6  OLD      SEQ      N/A   FMTD         
+    d:/simcenter 3d/nxnastran/scnas/nast/news.txt                 INCLD1       9  OLD      SEQ      N/A   FMTD      R  
+    ./lombaire_sim3-solution_1.plt                                PLOT        14  OLD      SEQ      N/A   UNFMTD       
+    ./lombaire_sim3-solution_1.op2                                OP2         12  OLD      SEQ      N/A   UNFMTD       
+    c:/users/.../temp/lombaire_sim3-solution_1.T108016_43.f18     OUTPUT2     18  UNKNOWN  SEQ      N/A   UNFMTD       
+    c:/users/.../temp/lombaire_sim3-solution_1.T108016_43.f19     INPUTT4     19  OLD      SEQ      N/A   UNFMTD    R  
+    ./lombaire_sim3-solution_1.f56                                F56         56  UNKNOWN  SEQ      N/A   FMTD         
+    c:/users/.../temp/lombaire_sim3-solution_1.T108016_43.sf1     SF1         93  OLD      SEQ      N/A   UNFMTD   T   
+    c:/users/.../temp/lombaire_sim3-solution_1.T108016_43.sf2     SF2         94  OLD      SEQ      N/A   UNFMTD   TR  
+    ./lombaire_sim3-solution_1.s200tmp                            S200       112  UNKNOWN  SEQ      N/A   UNFMTD   T   
+    ./lombaire_sim3-solution_1_sol200.csv                         CSV        113  UNKNOWN  SEQ      N/A   FMTD         
+    ./lombaire_sim3-solution_1.pch                                PUNCH        7  OLD      SEQ      N/A   FMTD         
+    ./lombaire_sim3-solution_1.xdb                                DBC         40  UNKNOWN  DIRECT   1024  UNFMTD       
+    ./lombaire_sim3-solution_1.asm                                ASSEM       16  OLD      SEQ      N/A   FMTD         
+
+    FLAG VALUES ARE --
+      A   FILE HAS BEEN DEFINED BY AN 'ASSIGN' STATEMENT
+      D   FILE IS TO BE DELETED BEFORE RUN, IF IT EXISTS
+      R   FILE IS READ-ONLY
+      T   FILE IS TEMPORARY AND WILL BE DELETED AT END OF RUN
+
+    ** PHYSICAL FILES LARGER THAN 2GB ARE SUPPORTED ON THIS PLATFORM
+ 
+0    ** MASTER DIRECTORIES ARE LOADED IN MEMORY.
+        USER OPENCORE (HICORE)         =   284357753  WORDS
+        EXECUTIVE SYSTEM WORK AREA     =      400175  WORDS
+        MASTER(RAM)                    =       98454  WORDS
+        SCRATCH(MEM) AREA              =    94964562  WORDS (    2898 BUFFERS)
+        BUFFER POOL AREA (GINO/EXEC)   =    94927984  WORDS (    2896 BUFFERS)
+        TOTAL OPEN CORE MEMORY         =   474748928  WORDS
+        TOTAL DYNAMIC MEMORY           =           0  WORDS
+
+        TOTAL NASTRAN MEMORY LIMIT     =   474748928  WORDS
+
+
+ Day_Time  Elapsed     I/O_Mb      Del_Mb     CPU_Sec    Del_CPU    SubDMAP Line (S)SubDMAP/Module
+ 
+ 10:47:45     0:00     1005.0         2.0         0.2        0.0    XSEMDR   BGN
+ 10:47:45     0:00     1007.0         2.0         0.2        0.0    SESTATIC56   (S)IFPL    BEGN    
+ 10:47:45     0:00     1007.0         0.0         0.2        0.0    IFPL    46      IFP1    BEGN    
+ 10:47:45     0:00     1007.0         0.0         0.2        0.0    IFPL    195     XSORT   BEGN    
+ 10:47:45     0:00     1007.0         0.0         0.2        0.0    IFPL    222     COPY    BEGN    
+ 10:47:45     0:00     1007.0         0.0         0.2        0.0    IFPL    244     FORTIO  BEGN    
+ 10:47:45     0:00     1007.0         0.0         0.2        0.0    IFPL    278  (S)IFPS    BEGN    
+ 10:47:45     0:00     1007.0         0.0         0.2        0.0    IFPS    47      IFP     BEGN    
+ 10:47:45     0:00     1007.0         0.0         0.2        0.0    IFP     
+ *       COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY     *
+ *         140:CBEAM              1:FORCE            154:GRID               2:MAT1               6:PARAM              6:PBEAM     *
+ *          13:RBE2               1:SPC     
+ *    PARAM:  K6ROT     OIBULK    OMACHPR   POST      POSTEXT   UNITSYS                                                           *
+ 10:47:45     0:00     1008.0         1.0         0.2        0.0    IFPS    50      IFPMPLS BEGN    
+ 10:47:45     0:00     1008.0         0.0         0.2        0.0    IFPS    213  (S)TESTBIT BEGN    
+ 10:47:45     0:00     1008.0         0.0         0.2        0.0    IFPS    215  (S)TESTBIT BEGN    
+ 10:47:45     0:00     1008.0         0.0         0.2        0.0    IFPS    217  (S)TESTBIT BEGN    
+ 10:47:45     0:00     1008.0         0.0         0.2        0.0    IFPS    240  (S)TESTBIT BEGN    
+ 10:47:45     0:00     1008.0         0.0         0.2        0.0    IFPS    242  (S)TESTBIT BEGN    
+ 10:47:45     0:00     1008.0         0.0         0.2        0.0    IFPS    244  (S)TESTBIT BEGN    
+ 10:47:45     0:00     1008.0         0.0         0.2        0.0    IFPS    246  (S)TESTBIT BEGN    
+ 10:47:45     0:00     1008.0         0.0         0.2        0.0    IFPS    253     CHKPNL  BEGN    
+ 10:47:45     0:00     1008.0         0.0         0.2        0.0    IFPS    254     DMIIN   BEGN    
+ 10:47:45     0:00     1008.0         0.0         0.2        0.0    IFPS    265     DTIIN   BEGN    
+ 10:47:45     0:00     1008.0         0.0         0.2        0.0    IFPS    367  (S)VATVIN  BEGN    
+ 10:47:45     0:00     1008.0         0.0         0.2        0.0    IFPS    374     DTIIN   BEGN    
+ 10:47:45     0:00     1008.0         0.0         0.2        0.0    IFPS    375  (S)MODSETINBEGN    
+ 10:47:45     0:00     1008.0         0.0         0.2        0.0    IFPS    377     MODGM2  BEGN    
+ 10:47:45     0:00     1008.0         0.0         0.2        0.0    IFPS    406     PVT     BEGN    
+ 10:47:45     0:00     1008.0         0.0         0.2        0.0    IFPS    482     GP1LM   BEGN    
+ 10:47:45     0:00     1008.0         0.0         0.2        0.0    IFPS    483     GP1     BEGN    
+ 10:47:45     0:00     1014.0         6.0         0.2        0.0    IFPS    659     GP7     BEGN    
+ 10:47:45     0:00     1014.0         0.0         0.2        0.0    IFPL    283     SEPR1   BEGN    
+ 10:47:45     0:00     1014.0         0.0         0.2        0.0    IFPL    284     DBDELETEBEGN    
+ 10:47:45     0:00     1015.0         1.0         0.2        0.0    IFPL    299     PROJVER BEGN    
+ 10:47:45     0:00     1016.0         1.0         0.2        0.0    IFPL    304     PVT     BEGN    
+ 10:47:45     0:00     1016.0         0.0         0.2        0.0    IFPL    377  (S)IFPS1   BEGN    
+ 10:47:45     0:00     1016.0         0.0         0.2        0.0    IFPS1   15      DTIIN   BEGN    
+ 10:47:45     0:00     1016.0         0.0         0.2        0.0    IFPS1   47      PLTSET  BEGN    
+ 10:47:45     0:00     1016.0         0.0         0.2        0.0    IFPS1   50      MSGHAN  BEGN    
+ 10:47:45     0:00     1016.0         0.0         0.2        0.0    IFPS1   51      MSGHAN  BEGN    
+ 10:47:45     0:00     1016.0         0.0         0.2        0.0    IFPS1   52      GP0     BEGN    
+ 10:47:45     0:00     1016.0         0.0         0.2        0.0    IFPS1   58      MSGHAN  BEGN    
+ 10:47:45     0:00     1016.0         0.0         0.2        0.0    IFPL    379  (S)TESTBIT BEGN    
+ 10:47:45     0:00     1016.0         0.0         0.2        0.0    IFPL    429  (S)TESTBIT BEGN    
+ 10:47:45     0:00     1016.0         0.0         0.2        0.0    SESTATIC82   (S)PHASE0  BEGN    
+ 10:47:45     0:00     1016.0         0.0         0.2        0.0    PHASE0  101  (S)PHASE0ACBEGN    
+ 10:47:45     0:00     1016.0         0.0         0.2        0.0    PHASE0AC12   (S)ACTRAP0 BEGN    
+ 10:47:45     0:00     1016.0         0.0         0.2        0.0    ACTRAP0 7    (S)CASEPARTBEGN    
+ 10:47:45     0:00     1016.0         0.0         0.2        0.0    CASEPART11      COPY    BEGN    
+ 10:47:45     0:00     1016.0         0.0         0.2        0.0    ACTRAP0 11   (S)TESTBIT BEGN    
+ 10:47:45     0:00     1016.0         0.0         0.2        0.0    PHASE0  108  (S)ATVIN0  BEGN    
+ 10:47:45     0:00     1017.0         1.0         0.2        0.0    PHASE0  147     PVT     BEGN    
+ 10:47:45     0:00     1017.0         0.0         0.2        0.0    PHASE0  148     COPY    BEGN    
+ 10:47:45     0:00     1017.0         0.0         0.2        0.0    PHASE0  154     PROJVER BEGN    
+ 10:47:45     0:00     1017.0         0.0         0.2        0.0    PHASE0  157     DTIIN   BEGN    
+ 10:47:45     0:00     1017.0         0.0         0.2        0.0    PHASE0  202     OUTPUT2 BEGN    
+ 10:47:45     0:00     1017.0         0.0         0.2        0.0    PHASE0  213     OUTPUT2 BEGN    
+ 10:47:45     0:00     1017.0         0.0         0.2        0.0    PHASE0  219     OUTPUT2 BEGN    
+ 10:47:45     0:00     1017.0         0.0         0.2        0.0    PHASE0  242  (S)TESTBIT BEGN    
+ 10:47:45     0:00     1017.0         0.0         0.2        0.0    PHASE0  243  (S)TESTBIT BEGN    
+ 10:47:45     0:00     1017.0         0.0         0.2        0.0    PHASE0  244  (S)TESTBIT BEGN    
+ 10:47:45     0:00     1017.0         0.0         0.2        0.0    PHASE0  275     SEP1X   BEGN    
+ 10:47:45     0:00     1017.0         0.0         0.2        0.0    PHASE0  294     GP1LM   BEGN    
+ 10:47:45     0:00     1017.0         0.0         0.2        0.0    PHASE0  302     GP1     BEGN    
+ 10:47:45     0:00     1017.0         0.0         0.2        0.0    PHASE0  308  (S)PHASE0A BEGN    
+ 10:47:45     0:00     1017.0         0.0         0.2        0.0    PHASE0A 24      GP2     BEGN    
+ 10:47:45     0:00     1018.0         1.0         0.2        0.0    PHASE0A 165     TA1     BEGN    
+ 10:47:45     0:00     1018.0         0.0         0.2        0.0    PHASE0A 170     TASNP2  BEGN    
+ 10:47:45     0:00     1018.0         0.0         0.2        0.0    PHASE0  316     SEP1    BEGN    
+ 10:47:45     0:00     1018.0         0.0         0.2        0.0    PHASE0  434     TABPRT  BEGN    
+ 10:47:45     0:00     1018.0         0.0         0.2        0.0    PHASE0  435     SEP3    BEGN    
+ 10:47:45     0:00     1018.0         0.0         0.2        0.0    PHASE0  647     PVT     BEGN    
+ 10:47:45     0:00     1030.0        12.0         0.2        0.0    PHASE0  1258 (S)SETQ    BEGN    
+ 10:47:45     0:00     1030.0         0.0         0.2        0.0    PHASE0  1429    GP2     BEGN    
+ 10:47:45     0:00     1031.0         1.0         0.2        0.0    PHASE0  1480    GPJAC   BEGN    
+ 10:47:45     0:00     1031.0         0.0         0.2        0.0    PHASE0  1568    DTIIN   BEGN    
+ 10:47:45     0:00     1031.0         0.0         0.2        0.0    PHASE0  1569    GP3     BEGN    
+ 10:47:45     0:00     1031.0         0.0         0.2        0.0    PHASE0  1572    LCGEN   BEGN    
+ 10:47:45     0:00     1031.0         0.0         0.2        0.0    PHASE0  1581    VECPLOT BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      VECPLOT 1581 SCR 301         924          6  2 1         3 2.77778E-01       3     1       1540          2          5         0 *8**
+      VECPLOT 1581 DRG             924          6  2 1         3 2.77800E-01       3     1       1540          2          5         0 *8**
+ 10:47:45     0:00     1031.0         0.0         0.2        0.0    PHASE0  1616    BCDR    BEGN    
+ 10:47:45     0:00     1031.0         0.0         0.2        0.0    PHASE0  1617    CASE    BEGN    
+ 10:47:45     0:00     1031.0         0.0         0.2        0.0    PHASE0  1618    PVT     BEGN    
+ 10:47:45     0:00     1032.0         1.0         0.2        0.0    PHASE0  1693    GP4     BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      GP4     1693 YG1               1        924  2 1         0 0.00000E+00       3     0          1          0          0         1 *8**
+      GP4     1693 RMG             924         78  2 1         1 2.16450E-03       3     0        156          0          1       768 *8**
+ 10:47:45     0:00     1032.0         0.0         0.2        0.0    PHASE0  1715    MATMOD  BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      MATMOD  1715 RMGX            924         78  2 1         1 2.16450E-03       3     0        156          0          1       768 *8**
+ 10:47:45     0:00     1032.0         0.0         0.2        0.0    PHASE0  1794    DPD     BEGN    
+ 10:47:45     0:00     1032.0         0.0         0.2        0.0    PHASE0  1844    MATGEN  BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      MATGEN  1844 YG1               1        924  2 1         0 0.00000E+00       3     0          1          0          0         1 *8**
+ 10:47:45     0:00     1032.0         0.0         0.2        0.0    PHASE0  1845    APPEND  BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      APPEND  1845 YG2               1        924  2 1         0 0.00000E+00       3     0          1          0          0         1 *8**
+ 10:47:45     0:00     1032.0         0.0         0.2        0.0    PHASE0  1899    BCDR    BEGN    
+ 10:47:45     0:00     1032.0         0.0         0.2        0.0    PHASE0  1985 (S)SELA1   BEGN    
+ 10:47:45     0:00     1032.0         0.0         0.2        0.0    PHASE0  1987    UPARTN  BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      UPARTN  1987 SCR 301           1        924  2 1        84 9.09091E-02       3     8         10        858        858         0 *8**
+ 10:47:45     0:00     1032.0         0.0         0.2        0.0    PHASE0  2278 (S)OUT2GEOMBEGN    
+ 10:47:45     0:00     1032.0         0.0         0.2        0.0    OUT2GEOM72      OUTPUT2 BEGN    
+ 10:47:45     0:00     1032.0         0.0         0.2        0.0    OUT2GEOM73      OUTPUT2 BEGN    
+ 10:47:45     0:00     1032.0         0.0         0.2        0.0    OUT2GEOM74      OUTPUT2 BEGN    
+ 10:47:45     0:00     1032.0         0.0         0.2        0.0    OUT2GEOM75      OUTPUT2 BEGN    
+ 10:47:45     0:00     1032.0         0.0         0.2        0.0    OUT2GEOM76      OUTPUT2 BEGN    
+ 10:47:45     0:00     1032.0         0.0         0.2        0.0    OUT2GEOM80      OUTPUT2 BEGN    
+ 10:47:45     0:00     1032.0         0.0         0.2        0.0    OUT2GEOM82      OUTPUT2 BEGN    
+ 10:47:45     0:00     1032.0         0.0         0.2        0.0    PHASE0  2281    OUTPUT2 BEGN    
+ 10:47:45     0:00     1032.0         0.0         0.2        0.0    PHASE0  2282    OUTPUT2 BEGN    
+ 10:47:45     0:00     1032.0         0.0         0.2        0.0    PHASE0  2283    OUTPUT2 BEGN    
+ 10:47:45     0:00     1032.0         0.0         0.2        0.0    SESTATIC85   (S)SETQ    BEGN    
+ 10:47:45     0:00     1032.0         0.0         0.2        0.0    SESTATIC93      MATGEN  BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      MATGEN  93   TEMPALL           2          2  6 1         1 5.00000E-01       3     1          2          1          1         0 *8**
+ 10:47:45     0:00     1032.0         0.0         0.2        0.0    SESTATIC94      RESTART BEGN    
+ Data block TEMPALL  has changed.
+ 10:47:45     0:00     1033.0         1.0         0.2        0.0    SESTATIC96      DTIIN   BEGN    
+ 10:47:45     0:00     1034.0         1.0         0.2        0.0    SESTATIC140  (S)PHASE1DRBEGN    
+ 10:47:45     0:00     1034.0         0.0         0.2        0.0    PHASE1DR70      MATINIT BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      MATINIT 70   CNELMP            1          3  2 1         0 0.00000E+00       3     0          1          0          0         1 *8**
+ 10:47:45     0:00     1035.0         1.0         0.2        0.0    PHASE1DR212     PVT     BEGN    
+ 10:47:45     0:00     1035.0         0.0         0.2        0.0    PHASE1DR213  (S)SETQ    BEGN    
+ 10:47:45     0:00     1035.0         0.0         0.2        0.0    PHASE1DR334     BOLTFOR BEGN    
+ 10:47:45     0:00     1035.0         0.0         0.2        0.0    PHASE1DR348  (S)DBSETOFFBEGN    
+ 10:47:45     0:00     1035.0         0.0         0.2        0.0    PHASE1DR354  (S)PHASE1A BEGN    
+ 10:47:45     0:00     1035.0         0.0         0.2        0.0    PHASE1A 90      TA1     BEGN    
+ 10:47:45     0:00     1035.0         0.0         0.2        0.0    PHASE1A 162     MSGHAN  BEGN    
+ 10:47:45     0:00     1035.0         0.0         0.2        0.0    PHASE1A 169  (S)SEMG    BEGN    
+ 10:47:45     0:00     1035.0         0.0         0.2        0.0    SEMG    112     ELTPRT  BEGN    
+ 10:47:45     0:00     1035.0         0.0         0.2        0.0    SEMG    117     EULAN   BEGN    
+ 10:47:45     0:00     1035.0         0.0         0.2        0.0    SEMG    118     OUTPUT2 BEGN    
+ 10:47:45     0:00     1035.0         0.0         0.2        0.0    SEMG    145     EMG     BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      EMG     145  KELM            140         78  2 1        42 5.23810E-01       3     1       5060         78         78         0 *8**
+      EMG     145  MELM            140         78  2 1         0 0.00000E+00       3     0          1          0          0       140 *8**
+ 10:47:45     0:00     1036.0         1.0         0.2        0.0    SEMG    148  (S)TESTBIT BEGN    
+ 10:47:45     0:00     1036.0         0.0         0.2        0.0    SEMG    361     EMA     BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      EMA     361  SCR 305         140        154  2 1         2 1.29870E-02       3     2        140          2          2         0 *8**
+      EMA     361  SCR 307         154        140  2 1         2 1.29870E-02       3     1        154          1          2         0 *8**
+      EMA     361  KJJZ            924        924  6 1         9 8.67909E-03       3     1       7410         15         17         0 *8**
+ 10:47:45     0:00     1037.0         1.0         0.2        0.0    SEMG    367     EMR     BEGN    
+ 10:47:45     0:00     1037.0         0.0         0.2        0.0    SEMG    409     EMA     BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      EMA     409  SCR 305         140        154  2 1         2 1.29870E-02       3     2        140          2          2         0 *8**
+      EMA     409  SCR 307         154        140  2 1         2 1.29870E-02       3     1        154          1          2         0 *8**
+ 10:47:45     0:00     1037.0         0.0         0.2        0.0    SEMG    704  (S)XMTRXIN BEGN    
+ 10:47:45     0:00     1037.0         0.0         0.2        0.0    SEMG    715     ADD     BEGN    
+ 10:47:45     0:00     1037.0         0.0         0.2        0.0    SEMG    727  (S)SEMG1   BEGN    
+ 10:47:45     0:00     1037.0         0.0         0.2        0.0    SEMG    736     PROJVER BEGN    
+ 10:47:45     0:00     1037.0         0.0         0.2        0.0    PHASE1A 194     MSGHAN  BEGN    
+ 10:47:45     0:00     1037.0         0.0         0.2        0.0    PHASE1A 195     MSGHAN  BEGN    
+ 10:47:45     0:00     1037.0         0.0         0.2        0.0    PHASE1A 196  (S)SESUM   BEGN    
+ 10:47:45     0:00     1039.0         2.0         0.2        0.0    PHASE1A 211     VECPLOT BEGN    
+ 10:47:45     0:00     1039.0         0.0         0.2        0.0    PHASE1A 269     MSGHAN  BEGN    
+ 10:47:45     0:00     1039.0         0.0         0.2        0.0    PHASE1A 276  (S)SELG    BEGN    
+ 10:47:45     0:00     1039.0         0.0         0.2        0.0    SELG    166     SSG1    BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      SSG1    166  SCR 301           1        924  2 1         1 1.08225E-03       3     1          1          1          1         0 *8**
+      SSG1    166  SCR 302           1          1  6 1         1 1.00000E+00       3     1          1          1          1         0 *8**
+      SSG1    166  PJX               1        924  2 1         1 1.08225E-03       3     1          1          1          1         0 *8**
+ 10:47:45     0:00     1039.0         0.0         0.2        0.0    SELG    559     VECPLOT BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      VECPLOT 559  SCR 301         924         15  2 1         3 1.11111E-01       3     1       1540          5         12         0 *8**
+      VECPLOT 559  SCR 302           1         15  2 1         2 1.33333E-01       3     1          2         12         12         0 *8**
+      VECPLOT 559  PJRES             1          6  2 1         2 3.33333E-01       3     1          2          3          3         0 *8**
+ 10:47:45     0:00     1039.0         0.0         0.3        0.0    PHASE1A 285     MSGHAN  BEGN    
+ 10:47:45     0:00     1039.0         0.0         0.3        0.0    PHASE1A 286  (S)SESUM   BEGN    
+ 10:47:45     0:00     1041.0         2.0         0.3        0.0    PHASE1A 292  (S)SELA1   BEGN    
+ 10:47:45     0:00     1041.0         0.0         0.3        0.0    PHASE1DR449     BCDR    BEGN    
+ 10:47:45     0:00     1041.0         0.0         0.3        0.0    PHASE1DR455     PVT     BEGN    
+ 10:47:45     0:00     1042.0         1.0         0.3        0.0    PHASE1DR579  (S)PHASE1E BEGN    
+ 10:47:45     0:00     1042.0         0.0         0.3        0.0    PHASE1E 47      FOGLEL  BEGN    
+ 10:47:45     0:00     1043.0         1.0         0.3        0.0    PHASE1DR586  (S)PHASE1B BEGN    
+ 10:47:45     0:00     1044.0         1.0         0.3        0.0    PHASE1B 51   (S)SEKR0   BEGN    
+ 10:47:45     0:00     1044.0         0.0         0.3        0.0    SEKR0   116  (S)XMCE1   BEGN    
+ 10:47:45     0:00     1044.0         0.0         0.3        0.0    XMCE1   12      UPARTN  BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      UPARTN  12   SCR 301           1        924  2 1        78 8.44156E-02       3     7         10        858        858         0 *8**
+      UPARTN  12   SCR 301           1        924  2 1       846 9.15584E-01       3    84         10        918        918         0 *8**
+      UPARTN  12   RMM              78         78  1 1         1 1.28205E-02       3     1         78          1          1         0 *8**
+      UPARTN  12   RMN             846         78  2 1         1 1.18203E-03       3     0         78          0          1       768 *8**
+ 10:47:45     0:00     1044.0         0.0         0.3        0.0    XMCE1   13      DIAGONALBEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      DIAGONAL13   DMM              78         78  6 1         1 1.28205E-02       3     1         78          1          1         0 *8**
+ 10:47:45     0:00     1044.0         0.0         0.3        0.0    XMCE1   14      ADD     BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      ADD     14   OMM              78         78  1 1         0 0.00000E+00       3     0          1          0          0        78 *8**
+ 10:47:45     0:00     1044.0         0.0         0.3        0.0    XMCE1   15      MATMOD  BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      MATMOD  15   VM01              1         78  2 1        78 1.00000E+00       3    78          1         78         78         0 *8**
+ 10:47:45     0:00     1044.0         0.0         0.3        0.0    XMCE1   31      DIAGONALBEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      DIAGONAL31   EMM              78         78  6 1         1 1.28205E-02       3     1         78          1          1         0 *8**
+ 10:47:45     0:00     1044.0         0.0         0.3        0.0    XMCE1   32      ADD     BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      ADD     32   IMM              78         78  1 1         1 1.28205E-02       3     1         78          1          1         0 *8**
+ 10:47:45     0:00     1044.0         0.0         0.3        0.0    XMCE1   33      MPYAD   BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      MPYAD   33   GM              846         78  2 1         1 1.18203E-03       3     0         78          0          1       768 *8**
+ 10:47:45     0:00     1044.0         0.0         0.3        0.0    SEKR0   119     UPARTN  BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      UPARTN  119  SCR 301           1        924  2 1       846 9.15584E-01       3    84         10        918        918         0 *8**
+      UPARTN  119  KMG             924         78  2 1         3 6.04951E-03       3     0        436          0          5       768 *8**
+ 10:47:45     0:00     1044.0         0.0         0.3        0.0    SEKR0   122     UPARTN  BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      UPARTN  122  SCR 301           1        924  2 1       846 9.15584E-01       3    84         10        918        918         0 *8**
+      UPARTN  122  KMM              78         78  6 1         3 3.58317E-02       3     1        218          4          5         0 *8**
+ 10:47:45     0:00     1044.0         0.0         0.3        0.0    SEKR0   127     MCE2    BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      MCE2    127  SCR 301           1        924  2 1       846 9.15584E-01       3    84         10        918        918         0 *8**
+      MCE2    127  SCR 305          78         78  6 1         3 3.58317E-02       3     1        218          4          5         0 *8**
+      MCE2    127  SCR 307          78        846  2 1         3 3.30363E-03       3     1        218          4          5         0 *8**
+      MCE2    127  SCR 304         846         78  2 1         3 3.30363E-03       3     0        218          0          5       768 *8**
+      MCE2    127  SCR 303         846        846  6 1         9 9.43950E-03       3     1       6756         15         17         0 *8**
+      MCE2    127  SCR 301         846         78  2 1         3 6.60726E-03       3     0        436          0          5       690 *8**
+      MCE2    127  SCR 302         846        846  1 1         3 3.04590E-04       3     0        218          0          5       768 *8**
+      MCE2    127  SCR 306         846        846  1 1         3 6.09180E-04       3     0        436          0          5       690 *8**
+      MCE2    127  KNN             846        846  1 1         9 1.00487E-02       3     1       7192         70        569         0 *8**
+      MCE2    127  KNN             846        846  6 1         9 1.00000E-02       3     0       7192         70        569         0 *8**
+ 10:47:45     0:00     1044.0         0.0         0.3        0.0    SEKR0   139     VECPLOT BEGN    
+ 10:47:45     0:00     1044.0         0.0         0.3        0.0    SEKR0   186     GPSP    BEGN    
+ 10:47:45     0:00     1044.0         0.0         0.3        0.0    PHASE1B 70   (S)SEKMR   BEGN    
+ 10:47:45     0:00     1044.0         0.0         0.3        0.0    SEKMR   17   (S)SEKR    BEGN    
+ 10:47:45     0:00     1044.0         0.0         0.3        0.0    SEKR    17   (S)PMLUSET BEGN    
+ 10:47:45     0:00     1044.0         0.0         0.3        0.0    SEKR    23      UPARTN  BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      UPARTN  23   SCR 301           1        846  2 1         6 7.09220E-03       3     6          1          6          6         0 *8**
+      UPARTN  23   KFF             840        840  6 1         9 1.01162E-02       3     1       7138         70        563         0 *8**
+      UPARTN  23   KSF             840          6  2 1         3 3.57143E-03       3     0         18          0          5       834 *8**
+      UPARTN  23   KFS               6        840  2 1         3 3.57143E-03       3     1         18          5          5         0 *8**
+      UPARTN  23   KSS               6          6  6 1         3 5.00000E-01       3     1         18          5          5         0 *8**
+ 10:47:45     0:00     1044.0         0.0         0.3        0.0    SEKR    26      VECPLOT BEGN    
+ 10:47:45     0:00     1044.0         0.0         0.3        0.0    SEKR    153  (S)SESUM   BEGN    
+ 10:47:45     0:00     1045.0         1.0         0.3        0.0    SEKMR   18   (S)SESUM   BEGN    
+ 10:47:45     0:00     1047.0         2.0         0.3        0.0    SEKMR   30   (S)PMLUSET BEGN    
+ 10:47:45     0:00     1047.0         0.0         0.3        0.0    PHASE1B 74   (S)PMLUSET BEGN    
+ 10:47:45     0:00     1049.0         2.0         0.3        0.0    PHASE1B 438  (S)SEGOA   BEGN    
+ 10:47:45     0:00     1049.0         0.0         0.3        0.0    PHASE1B 446  (S)SELR    BEGN    
+ 10:47:45     0:00     1049.0         0.0         0.3        0.0    SELR    104     SSG2    BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      SSG2    104  SCR 301           1        924  2 1        78 8.44156E-02       3     7         10        858        858         0 *8**
+      SSG2    104  SCR 302           1        846  2 1         1 1.18203E-03       3     1          1          1          1         0 *8**
+      SSG2    104  SCR 303           1         78  2 1         0 0.00000E+00       3     0          1          0          0         1 *8**
+      SSG2    104  PA                1        846  2 1         1 1.18203E-03       3     1          1          1          1         0 *8**
+      SSG2    104  SCR 301           1        846  2 1         6 7.09220E-03       3     6          1          6          6         0 *8**
+      SSG2    104  SCR 302           1        840  2 1         1 1.19048E-03       3     1          1          1          1         0 *8**
+      SSG2    104  PSS               1          6  2 1         0 0.00000E+00       3     0          1          0          0         1 *8**
+      SSG2    104  PA                1        840  2 1         1 1.19048E-03       3     1          1          1          1         0 *8**
+ 10:47:45     0:00     1049.0         0.0         0.3        0.0    PHASE1B 449  (S)SESUM   BEGN    
+ 10:47:45     0:00     1052.0         3.0         0.3        0.0    PHASE1B 695     SSG2    BEGN    
+ 10:47:45     0:00     1052.0         0.0         0.3        0.0    PHASE1DR598     PVT     BEGN    
+ 10:47:45     0:00     1052.0         0.0         0.3        0.0    PHASE1DR857     BCDR    BEGN    
+ 10:47:45     0:00     1052.0         0.0         0.3        0.0    SESTATIC167     BCDR    BEGN    
+ 10:47:45     0:00     1052.0         0.0         0.3        0.0    SESTATIC168     PVT     BEGN    
+ 10:47:45     0:00     1052.0         0.0         0.3        0.0    SESTATIC178  (S)PMLUSET BEGN    
+ 10:47:45     0:00     1052.0         0.0         0.3        0.0    SESTATIC197  (S)PHASE1C BEGN    
+ 10:47:45     0:00     1052.0         0.0         0.3        0.0    PHASE1C 49   (S)SEKRRS  BEGN    
+ 10:47:45     0:00     1052.0         0.0         0.3        0.0    SEKRRS  186     DCMP    BEGN    
+ *** USER INFORMATION MESSAGE 4157 (DFMSYN)
+     PARAMETERS FOR SPARSE DECOMPOSITION OF DATA BLOCK  KLL     ( TYPE=RSP ) FOLLOW
+                      MATRIX SIZE =      840 ROWS             NUMBER OF NONZEROES =        3989 TERMS
+           NUMBER OF ZERO COLUMNS =        0        NUMBER OF ZERO DIAGONAL TERMS =           0
+                CPU TIME ESTIMATE =        0 SEC                I/O TIME ESTIMATE =           0 SEC
+       MINIMUM MEMORY REQUIREMENT =     1416 KB                  MEMORY AVAILABLE =     2221456 KB
+     MEMORY REQR'D TO AVOID SPILL =     2448 KB              MEMORY USED BY MMD   =          40 KB
+     EST. INTEGER WORDS IN FACTOR =        4 K WORDS           EST. NONZERO TERMS =          17 K TERMS
+     ESTIMATED MAXIMUM FRONT SIZE =       36 TERMS                 RANK OF UPDATE =         128
+ *** USER INFORMATION MESSAGE 6439 (DFMSA)
+     ACTUAL MEMORY AND DISK SPACE REQUIREMENTS FOR SPARSE SYM. DECOMPOSITION
+        SPARSE DECOMP MEMORY USED =     2448 KB                MAXIMUM FRONT SIZE =          36 TERMS  
+          INTEGER WORDS IN FACTOR =        1 K WORDS      NONZERO TERMS IN FACTOR =          17 K TERMS
+   SPARSE DECOMP SUGGESTED MEMORY =     2448 KB
+ *8** Module  DMAP Matrix         Cols       Rows  F T  IBlks  NBlks NumFrt FrtMax 
+      DCMP    186  LLL             840        840 13 1      1      1     28     36 *8**
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      DCMP    186  SCR 301           1        840  2 1       840 1.00000E+00       3   840          1        840        840         0 *8**
+      DCMP    186  SCR 302           1        840  2 1       840 1.00000E+00       3   840          1        840        840         0 *8**
+      DCMP    186  SCR 303           1        840  2 1       840 1.00000E+00       3   840          1        840        840         0 *8**
+ 10:47:45     0:00     1052.0         0.0         0.3        0.0    PHASE1C 55   (S)SESUM   BEGN    
+ 10:47:45     0:00     1054.0         2.0         0.3        0.0    PHASE1C 64   (S)SESUM   BEGN    
+ 10:47:45     0:00     1055.0         1.0         0.3        0.0    PHASE1C 68   (S)SELRRS  BEGN    
+ 10:47:45     0:00     1055.0         0.0         0.3        0.0    PHASE1C 69   (S)SESUM   BEGN    
+ 10:47:45     0:00     1057.0         2.0         0.3        0.0    SESTATIC217  (S)STATRS  BEGN    
+ 10:47:45     0:00     1057.0         0.0         0.3        0.0    STATRS  181     MSGHAN  BEGN    
+ 10:47:45     0:00     1057.0         0.0         0.3        0.0    STATRS  308     SSG3    BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      SSG3    308  UL                1        840  2 1       420 5.00000E-01       3     1        420        839        839         0 *8**
+      SSG3    308  RUL               1        840  2 1       418 4.97619E-01       3     1        418        839        839         0 *8**
+ 10:47:45     0:00     1057.0         0.0         0.3        0.0    STATRS  459     MSGHAN  BEGN    
+ 10:47:45     0:00     1057.0         0.0         0.3        0.0    SESTATIC218     APPEND  BEGN    
+ 10:47:45     0:00     1057.0         0.0         0.3        0.0    SESTATIC322     PVT     BEGN    
+ 10:47:45     0:00     1057.0         0.0         0.3        0.0    SESTATIC323     APPEND  BEGN    
+ 10:47:45     0:00     1057.0         0.0         0.3        0.0    SESTATIC329     COPY    BEGN    
+ 10:47:45     0:00     1057.0         0.0         0.3        0.0    SESTATIC338     BCDR    BEGN    
+ 10:47:45     0:00     1057.0         0.0         0.3        0.0    SESTATIC339  (S)SESUM   BEGN    
+ 10:47:45     0:00     1058.0         1.0         0.3        0.0    SESTATIC363  (S)SUPER3  BEGN    
+ 10:47:45     0:00     1058.0         0.0         0.3        0.0    SUPER3  304     SEP4    BEGN    
+ 10:47:45     0:00     1058.0         0.0         0.3        0.0    SUPER3  336     GP1LM   BEGN    
+ 10:47:45     0:00     1058.0         0.0         0.3        0.0    SUPER3  337     GP1     BEGN    
+ 10:47:45     0:00     1058.0         0.0         0.3        0.0    SUPER3  543     SEDRDR  BEGN    
+ 10:47:45     0:00     1058.0         0.0         0.3        0.0                            
+ 10:47:45     0:00     1058.0         0.0         0.3        0.0    SUPER3  691     PVT     BEGN    
+ 10:47:45     0:00     1058.0         0.0         0.3        0.0    SUPER3  712     SEDR    BEGN    
+ 10:47:45     0:00     1058.0         0.0         0.3        0.0    SUPER3  788     PVT     BEGN    
+ 10:47:45     0:00     1058.0         0.0         0.3        0.0    SUPER3  812  (S)DBSETOFFBEGN    
+ 10:47:45     0:00     1058.0         0.0         0.3        0.0    SUPER3  832     LCGEN   BEGN    
+ 10:47:45     0:00     1058.0         0.0         0.3        0.0    SUPER3  916     DTIIN   BEGN    
+ 10:47:45     0:00     1058.0         0.0         0.3        0.0    SUPER3  917     DTIIN   BEGN    
+ 10:47:45     0:00     1058.0         0.0         0.3        0.0    SUPER3  1056 (S)SEDISP  BEGN    
+ 10:47:45     0:00     1059.0         1.0         0.3        0.0    SEDISP  127     BCDR    BEGN    
+ 10:47:45     0:00     1059.0         0.0         0.3        0.0    SEDISP  299  (S)SEGOA   BEGN    
+ 10:47:45     0:00     1059.0         0.0         0.3        0.0    SEDISP  310     SDR1    BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      SDR1    310  SCR 301           1        846  2 1         6 7.09220E-03       3     6          1          6          6         0 *8**
+      SDR1    310  SCR 303           1        846  2 1       420 4.96454E-01       3     1        420        845        845         0 *8**
+      SDR1    310  SCR 301           1          6  2 1         3 5.00000E-01       3     1          3          5          5         0 *8**
+      SDR1    310  SCR 304           1        924  2 1       918 9.93506E-01       3   459          2        924        924         0 *8**
+      SDR1    310  SCR 306           1        924  2 1         3 3.24675E-03       3     1          3          5          5         0 *8**
+      SDR1    310  QGI               1        924  2 1         3 3.24675E-03       3     1          3          5          5         0 *8**
+      SDR1    310  SCR 304           1         78  2 1        39 5.00000E-01       3     1         39         77         77         0 *8**
+      SDR1    310  SCR 301           1        924  2 1        78 8.44156E-02       3     7         10        858        858         0 *8**
+      SDR1    310  SCR 306           1        924  2 1       459 4.96753E-01       3     1        459        923        923         0 *8**
+      SDR1    310  UGI               1        924  2 1       459 4.96753E-01       3     1        459        923        923         0 *8**
+ 10:47:45     0:00     1059.0         0.0         0.3        0.0    SEDISP  443     BCDR    BEGN    
+ 10:47:45     0:00     1059.0         0.0         0.3        0.0    SEDISP  457     COPY    BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      COPY    457  UG                1        924  2 1       459 4.96800E-01       3     1        459        923        923         0 *8**
+ 10:47:45     0:00     1059.0         0.0         0.3        0.0    SEDISP  473     COPY    BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      COPY    473  QG                1        924  2 1         3 3.20000E-03       3     0          3          5          5         0 *8**
+ 10:47:45     0:00     1059.0         0.0         0.3        0.0    SEDISP  697  (S)SESUM   BEGN    
+ 10:47:45     0:00     1060.0         1.0         0.3        0.0    SUPER3  1060    PVT     BEGN    
+ 10:47:45     0:00     1060.0         0.0         0.3        0.0    SUPER3  1499 (S)SEDRCVR BEGN    
+ 10:47:45     0:00     1061.0         1.0         0.3        0.0    SEDRCVR 126  (S)SEDRCVR7BEGN    
+ 10:47:45     0:00     1061.0         0.0         0.3        0.0    SEDRCVR730      VECPLOT BEGN    
+ *8** Module  DMAP Matrix         Cols       Rows  F T     NzWds     Density  BlockT  StrL    NbrStr    BndAvg    BndMax    NulCol
+      VECPLOT 30   SCR 301         924         15  2 1         3 1.11111E-01       3     1       1540          5         12         0 *8**
+      VECPLOT 30   SCR 302           1         15  2 1         5 3.33333E-01       3     1          5         14         14         0 *8**
+      VECPLOT 30   QGRES             1          6  2 1         3 5.00000E-01       3     1          3          5          5         0 *8**
+ 10:47:45     0:00     1061.0         0.0         0.3        0.0    SEDRCVR 170  (S)SEDRCVRBBEGN    
+ 10:47:45     0:00     1061.0         0.0         0.3        0.0    SEDRCVRB33   (S)CHCKPEAKBEGN    
+ 10:47:45     0:00     1061.0         0.0         0.3        0.0    SEDRCVRB218     SDR2    BEGN    
+ 10:47:45     0:00     1061.0         0.0         0.3        0.0    SEDRCVRB243     SDR2    BEGN    
+ 10:47:45     0:00     1061.0         0.0         0.3        0.0    SEDRCVRB278  (S)COMBOUT BEGN    
+ 10:47:45     0:00     1061.0         0.0         0.3        0.0    SEDRCVRB279  (S)COMBOUT BEGN    
+ 10:47:45     0:00     1061.0         0.0         0.3        0.0    SEDRCVRB280  (S)COMBOUT BEGN    
+ 10:47:45     0:00     1061.0         0.0         0.3        0.0    SEDRCVRB281  (S)COMBOUT BEGN    
+ 10:47:45     0:00     1061.0         0.0         0.3        0.0    SEDRCVRB282  (S)COMBOUT BEGN    
+ 10:47:45     0:00     1061.0         0.0         0.3        0.0    SEDRCVRB292     SDR2    BEGN    
+ 10:47:45     0:00     1061.0         0.0         0.3        0.0    SEDRCVRB311  (S)COMBOUT BEGN    
+ 10:47:45     0:00     1062.0         1.0         0.3        0.0    SEDRCVR 193     SDRX    BEGN    
+ 10:47:45     0:00     1062.0         0.0         0.3        0.0    SEDRCVR 206  (S)COMBOUT BEGN    
+ 10:47:45     0:00     1062.0         0.0         0.3        0.0    SEDRCVR 207  (S)COMBOUT BEGN    
+ 10:47:45     0:00     1062.0         0.0         0.3        0.0    SEDRCVR 208  (S)COMBOUT BEGN    
+ 10:47:45     0:00     1062.0         0.0         0.3        0.0    SEDRCVR 209  (S)COMBOUT BEGN    
+ 10:47:45     0:00     1062.0         0.0         0.3        0.0    SEDRCVR 210  (S)COMBOUT BEGN    
+ 10:47:45     0:00     1062.0         0.0         0.3        0.0    SEDRCVR 394  (S)SEDRCVR3BEGN    
+ 10:47:45     0:00     1062.0         0.0         0.3        0.0    SEDRCVR 396  (S)SEDRCVR6BEGN    
+ 10:47:45     0:00     1062.0         0.0         0.3        0.0    SEDRCVR633      OUTPUT2 BEGN    
+ 10:47:45     0:00     1062.0         0.0         0.3        0.0    SEDRCVR6117     OUTPUT2 BEGN    
+ 10:47:45     0:00     1062.0         0.0         0.3        0.0    SEDRCVR6123     MATMOD  BEGN    
+ 10:47:45     0:00     1062.0         0.0         0.3        0.0    SEDRCVR6421     SDR2    BEGN    
+ 10:47:45     0:00     1062.0         0.0         0.3        0.0    SEDRCVR6456  (S)COMBOUT BEGN    
+ 10:47:45     0:00     1062.0         0.0         0.3        0.0    SEDRCVR6468     OUTPUT2 BEGN    
+ 10:47:45     0:00     1062.0         0.0         0.3        0.0    SEDRCVR6469     OUTPUT2 BEGN    
+ 10:47:45     0:00     1062.0         0.0         0.3        0.0    SEDRCVR6565     EULAN   BEGN    
+ 10:47:45     0:00     1062.0         0.0         0.3        0.0    SEDRCVR6566     OUTPUT2 BEGN    
+ 10:47:45     0:00     1063.0         1.0         0.3        0.0    SEDRCVR6597  (S)COMBOUT BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR6636     OUTPUT2 BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR6676  (S)COMBOUT BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR6689     OUTPUT2 BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR6690     OUTPUT2 BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR6719     OUTPUT2 BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR 447  (S)SEDRCVR4BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR431      OFP     BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR441      OUTPUT2 BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR4118     OFP     BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR4120     OFP     BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR4127     OFP     BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR4128     OFP     BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR4130     OFP     BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR4131     OFP     BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR4132     OFP     BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR4134     OUTPUT2 BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR4135     OUTPUT2 BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR4207     OFP     BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR4211     OFP     BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR4213     OFP     BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR4267     OFP     BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR4594     OFP     BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR 630  (S)SEDRCVR8BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR8112     OUTPUT2 BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SEDRCVR8116     OUTPUT2 BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SESTATIC423  (S)PRTSUM  BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SESTATIC424     MSGHAN  BEGN    
+ 10:47:45     0:00     1063.0         0.0         0.3        0.0    SESTATIC425     EXIT    BEGN    
+
+ *** TOTAL MEMORY AND DISK USAGE STATISTICS ***
+
+ +---------- SPARSE SOLUTION MODULES -----------+         +------------- MAXIMUM DISK USAGE -------------+
+      HIWATER               SUB_DMAP        DMAP               HIWATER               SUB_DMAP        DMAP
+      (WORDS)   DAY_TIME      NAME         MODULE                 (MB)   DAY_TIME      NAME         MODULE
+    190715997   10:47:45    SEKRRS    186  DCMP                 44.938   10:47:45    SESTATIC  425  EXIT    
+
+
+ *** DATABASE USAGE STATISTICS ***
+ 
+ +------------------ LOGICAL DBSETS ------------------+   +------------------------- DBSET FILES -------------------------+
+  DBSET      ALLOCATED   BLOCKSIZE        USED    USED     FILE       ALLOCATED     HIWATER       HIWATER  I/O TRANSFERRED
+              (BLOCKS)     (WORDS)    (BLOCKS)       %                 (BLOCKS)    (BLOCKS)          (MB)             (GB)
+ 
+  MASTER          5000       32768          60    1.20     MASTER          5000          60        15.000            0.507
+  DBALL        2000000       32768           5    0.00     DBALL        2000000           5         1.250            0.006
+  OBJSCR          5000        8192         451    9.02     OBJSCR          5000         451        28.188            0.099
+  SCRATCH      4002898       32768          11    0.00    (MEMFILE         2898         103        25.750            0.000)
+                                                           SCRATCH      2000000           1         0.250            0.000
+                                                           SCR300       2000000           1         0.250            0.000
+                                                                                                            ==============
+                                                                                                     TOTAL:          0.612
+ 
+ *** BUFFER POOL AND SCRATCH 300 USAGE STATISTICS ***
+ 
+ +----------------- BUFFER POOL -----------------+      +-------------------------- SCRATCH 300 --------------------------+ 
+   OPTION        BLOCKS      BLOCKS      BLOCKS           OPTION    HIWATER               SUB_DMAP        DMAP     OPN/CLS
+  SELECTED     ALLOCATED     REUSED     RELEASED         SELECTED  (BLOCKS)   DAY_TIME      NAME         MODULE    COUNTER
+  GINO,EXEC        2896        7806           0              2           1    10:47:45    PREFACE     0  PREFACE       0
+
+
+ *** SUMMARY OF PHYSICAL FILE I/O ACTIVITY ***
+
+ ASSIGNED PHYSICAL FILE NAME                                   RECL (BYTES)  READ/WRITE COUNTS   WSIZE  (WNUM)  MAP-I/O CNT
+ ------------------------------------------------------------  -----------  -------------------  -------------  -----------
+ c:/.../temp/lombaire_sim3-solution_1.T108016_43.SCRATCH            262144          0/1            N/A            N/A          
+ c:/users/.../temp/lombaire_sim3-solution_1.T108016_43.OBJSCR        65536          0/1626         N/A            N/A          
+ c:/users/.../temp/lombaire_sim3-solution_1.T108016_43.MASTER       262144          3/2075         N/A            N/A          
+ c:/users/.../temp/lombaire_sim3-solution_1.T108016_43.DBALL        262144          2/23           N/A            N/A          
+ c:/users/.../temp/lombaire_sim3-solution_1.T108016_43.SCR300       262144          0/1            N/A            N/A          
+ d:/simcenter 3d/nxnastran/scnas/em64tntl/SSS.MASTERA                65536         82/0            N/A            N/A          
+ d:/simcenter 3d/nxnastran/scnas/em64tntl/SSS.MSCOBJ                 65536        444/0            N/A            N/A          
+ 

@@ -1,0 +1,65 @@
+
+*** 17:31:46 *** 
+Starting Nastran Exporter
+
+*** 17:31:46 *** 
+Writing file 
+C:\Users\marcd\Desktop\PI3\Simulations\Lombaire\model3_sim1-solution_1.dat
+ 
+*** 17:31:46 *** 
+Writing SIMCENTER NASTRAN 2020.2 compatible deck
+
+*** 17:31:46 *** 
+Writing Nastran System section
+
+*** 17:31:46 *** 
+Writing File Management section
+
+*** 17:31:46 *** 
+Writing Executive Control section
+
+*** 17:31:46 *** 
+Writing Case Control section
+
+*** 17:31:46 *** 
+Writing Bulk Data section
+
+*** 17:31:47 *** 
+Writing Nodes
+
+*** 17:31:47 *** 
+Writing Elements
+
+*** 17:31:47 *** 
+Writing Physical Properties
+
+*** 17:31:47 *** 
+Writing Materials
+
+*** 17:31:47 *** 
+Writing Degree-of-Freedom Sets
+
+*** 17:31:47 *** 
+Writing Loads and Constraints
+
+*** 17:31:47 *** 
+Writing Coordinate Systems
+
+*** 17:31:47 *** 
+Summary of Bulk Data cards written
+
++----------+----------+
+|   NAME   |  NUMBER  |
++----------+----------+
+| CTETRA   | 747      |
+| FORCE    | 18       |
+| GRID     | 1570     |
+| MAT1     | 1        |
+| PARAM    | 6        |
+| PSOLID   | 1        |
+| SPC      | 18       |
++----------+----------+
+
+*** 17:31:47 *** 
+Nastran Deck Successfully Written
+

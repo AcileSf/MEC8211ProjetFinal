@@ -1,0 +1,67 @@
+
+*** 19:51:17 *** 
+Starting Nastran Exporter
+
+*** 19:51:17 *** 
+Writing file 
+C:\Users\marcd\Desktop\PI3\Simulations\Lombaire\lombaire_sim3-solution_2.dat
+ 
+*** 19:51:17 *** 
+Writing SIMCENTER NASTRAN 2020.2 compatible deck
+
+*** 19:51:17 *** 
+Writing Nastran System section
+
+*** 19:51:17 *** 
+Writing File Management section
+
+*** 19:51:17 *** 
+Writing Executive Control section
+
+*** 19:51:17 *** 
+Writing Case Control section
+
+*** 19:51:17 *** 
+Writing Bulk Data section
+
+*** 19:51:17 *** 
+Writing Nodes
+
+*** 19:51:17 *** 
+Writing Elements
+
+*** 19:51:17 *** 
+Writing Physical Properties
+
+*** 19:51:17 *** 
+Writing Materials
+
+*** 19:51:17 *** 
+Writing Degree-of-Freedom Sets
+
+*** 19:51:17 *** 
+Writing Loads and Constraints
+
+*** 19:51:17 *** 
+Writing Coordinate Systems
+
+*** 19:51:17 *** 
+Summary of Bulk Data cards written
+
++----------+----------+
+|   NAME   |  NUMBER  |
++----------+----------+
+| CBEAM    | 140      |
+| FORCE    | 1        |
+| GRID     | 154      |
+| MAT1     | 2        |
+| NLPARM   | 1        |
+| PARAM    | 7        |
+| PBEAM    | 6        |
+| RBE2     | 13       |
+| SPC      | 1        |
++----------+----------+
+
+*** 19:51:17 *** 
+Nastran Deck Successfully Written
+

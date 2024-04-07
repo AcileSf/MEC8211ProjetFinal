@@ -1,0 +1,116 @@
+Simcenter Nastran 2020.2 (Intel64 Family 6 Model 158 Stepping 9 Windows 10  ) Control File:
+--------------------------------------------------------------------------------------
+Nastran BUFFSIZE=32769 $(d:/simcenter 3d/nxnastran/conf/nastran.rcf[1])
+Nastran BUFFPOOL=20.0X $(d:/simcenter 3d/nxnastran/conf/nastran.rcf[4])
+Nastran DIAGA=128 DIAGB=0 $(d:/simcenter 3d/nxnastran/conf/nastran.rcf[8])
+Nastran SYSTEM(442)=2 $(command line[5])
+Nastran REAL=1053425664 $(Memory limit for MPI and other specialized modules)
+JID='C:\Users\marcd\Desktop\PI3\Simulations\Lombaire\lombaire_sim1-solution_1.dat'
+OUT='./lombaire_sim1-solution_1'
+MEM=474748928
+MACH='Intel64 Family 6 Model 158 Stepping 9'
+OPER='Windows 10'
+OSV=' '
+MODEL='Intel(R) Core(TM) i5-7600K CPU @ 3.80GHz (DESKTOP-NUD6E5R)'
+CONFIG=8666
+NPROC=4
+symbol=DELDIR='d:/simcenter 3d/nxnastran/scnas/nast/del' $(program default)
+symbol=DEMODIR='d:/simcenter 3d/nxnastran/scnas/nast/demo' $(program default)
+symbol=SSSALTERDIR='d:/simcenter 3d/nxnastran/scnas/nast/misc/sssalter' $(program default)
+symbol=TPLDIR='d:/simcenter 3d/nxnastran/scnas/nast/tpl' $(program default)
+SDIR='c:/users/marcd/appdata/local/temp/lombaire_sim1-solution_1.T21904_46'
+DBS='c:/users/marcd/appdata/local/temp/lombaire_sim1-solution_1.T21904_46'
+SCR=yes
+SMEM=20.0X
+NEWDEL='d:/simcenter 3d/nxnastran/scnas/em64tntl/SSS'
+DEL='NXNDEF'
+AUTH='28000@lic-ens.meca.polymtl.ca'
+AUTHQUE=0
+MSGCAT='d:/simcenter 3d/nxnastran/scnas/em64tntl/analysis.msg'
+MSGDEST='f06'
+PROG=bundle
+NEWS='d:/simcenter 3d/nxnastran/scnas/nast/news.txt'
+UMATLIB='libnxumat.dll'
+UCRPLIB='libucreep.dll'
+USOLLIB='libusol.dll'
+--------------------------------------------------------------------------------------
+NXN_ISHELLPATH=D:\Simcenter 3D\nxnastran\bin
+NXN_JIDPATH=
+PATH=d:/simcenter 3d/nxnastran/scnas/em64tntl;d:/simcenter 3d/nxnastran/scnas/em64tntl/sysnoise;d:/simcenter 3d/nxnastran/scnas/em64tntl/samcef;d:/simcenter 3d/nxnastran/scnas/em64tntl/impi/bin;d:/simcenter 3d/nxnastran/scnas/em64tntl/monitor;C:\Program Files\Java\jre1.8.0_341\bin;D:\Simcenter 3D\nxbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Airshipper\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Users\marcd\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\marcd\AppData\Local\Programs\Python\Python311\;C:\Users\marcd\AppData\Local\Microsoft\WindowsApps;
+Command Line: lombaire_sim1-solution_1.dat prog=bundle old=no scratch=yes sys442=2
+Current Dir: C:\Users\marcd\Desktop\PI3\Simulations\Lombaire
+Executable:  d:/simcenter 3d/nxnastran/scnas/em64tntl/analysis.exe
+NXN_MSG:     stderr
+FPE:         no
+--------------------------------------------------------------------------------------
+Current resource limits:
+ Physical memory:                     8049 MB
+ Physical memory available:           4125 MB
+ Paging file size:                   22385 MB
+ Paging file size available:         11112 MB
+ Virtual memory:                 134217727 MB
+ Virtual memory available:       134213569 MB
+--------------------------------------------------------------------------------------
+System configuration:
+ Hostname:         DESKTOP-NUD6E5R
+ Architecture:     em64tnt
+ Platform:         Intel64 Family 6 Model 158 Stepping 9 Windows 10  
+ Model:            Intel(R) Core(TM) i5-7600K CPU @ 3.80GHz
+ Clock freq.:      3792 MHz
+ Number of CPUs:   4
+ Executable:       standard
+ Raw model ID:     8666
+ Config number:    8666
+ Physical memory:  8049 MB
+ Virtual memory:   22385 MB
+ Numeric format:   64-bit little-endian IEEE.
+ Bytes per word:   8
+ Disk block size:  512 bytes (64 words)
+ Remote shell cmd: Remote capabilities not available.
+--------------------------------------------------------------------------------------
+Simcenter Nastran started  Thu Aug  3 23:02:46 EST 2023
+ 23:02:46  Beginning Analysis
+
+ 23:02:46  Simcenter NASTRAN Authorization Information - System Attributes
+ 23:02:46  --------------------------------------------------------
+ 23:02:46  Model: Intel(R) Core(TM) i5-7600K CPU @
+ 23:02:46  Machine: Intel64 Family 6 Model 158 Stepp
+ 23:02:46  OS: Windows 10
+ 23:02:46  Version:
+ 23:02:46  License File(s): 28000@lic-ens.meca.polymtl.ca
+
+
+ 23:02:47  Simcenter NASTRAN Licensing Information
+ 23:02:47  --------------------------------------
+ 23:02:47  Sold To ID:            1252582 - Ecole Polytechnique d
+ 23:02:47  Webkey Access Code:    FGW6X2O0S3
+ 23:02:47  License File Issuer:   SIEMENS
+
+
+ 23:02:47  Simcenter NASTRAN Authorization Information - Checkout Successful
+ 23:02:47  -----------------------------------------------------------------
+ 23:02:47  License for module Simcenter Nastran Basic - NX Desktop (Bundle)  checked out successfully
+
+ 23:02:47  Loading Shared Library D:\Simcenter 3D\nxcae_extras\tmg\exe\mayamoncomm.dll
+
+Starting viewer with UGII_MONITOR_DIR set to 'D:\Simcenter 3D\nxcae_extras\tmg\exe'
+Starting monitor viewer at D:\Simcenter 3D\nxcae_extras\tmg\exe/xcsmon_viewer.exe
+
+ 23:02:47  Simcenter NASTRAN Authorization Information - Checkout Successful
+ 23:02:47  -----------------------------------------------------------------
+ 23:02:47  License for module Simcenter Nastran Non-linear - NX Desktop (Bundle)  checked out successfully
+
+ 23:02:48  Analysis started.
+ 23:02:48  Geometry access/verification to CAD part initiated (if needed).
+ 23:02:48  Geometry access/verification to CAD part successfully completed (if needed).
+ 23:02:48  Finite element model generation started.
+ 23:02:48  Finite element model generated 35400 degrees of freedom.
+ 23:02:48  Finite element model generation successfully completed.
+ 23:02:48  Application of Loads and Boundary Conditions to the finite element model started.
+ 23:02:48  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 23:02:56  NSEXIT: EXIT(0)
+ 23:02:57  Analysis complete  0
+Real:       10.504 seconds ( 0:00:10.504)
+User:        4.609 seconds ( 0:00:04.609)
+Sys:         0.640 seconds ( 0:00:00.640)
+Simcenter Nastran finished Thu Aug  3 23:02:57 EST 2023
