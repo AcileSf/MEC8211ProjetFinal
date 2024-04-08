@@ -25,7 +25,7 @@ def ConfidenceInterval(series, n, confiance):
      return lower_bound, upper_bound
  
 # create some normal random data
-mean = 200.
+mean = 150.
 sd = 2.5
 n = 100
 np.random.seed(0)
@@ -49,7 +49,7 @@ print('Intervalle de confiance à ',100*confiance,'% : ', lower_bound, upper_bou
 
 
 # Export generated data to csv
-with open('FORCES_random_seed0.csv', 'w', newline='') as csvfile:
+with open('FORCES_random_seed0_150.csv', 'w', newline='') as csvfile:
     filewriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
     filewriter.writerow(['Forces distribution normale'])
     for i in range(len(serie)):
